@@ -1,0 +1,2 @@
+# Find-the-Combination
+This is code I wrote for codewars.com and it's based on regexp() and identifying global characters. The objective is to count how many times a certain word or combination of letters or symbols appears inside a string. The key is case insensitive and can occur as many or as few times in the string. The instructions and test cases are listed in the repo as well. This reached 20 upvotes and 113 completions.
