@@ -1,0 +1,15 @@
+Test.assertEquals(countCombinations('hellohellohello', 'hello'), 3);
+Test.assertEquals(countCombinations('jfdkeyoeld', 'key'), 1);
+Test.assertEquals(countCombinations('my name is hEctOrhector HECToR hectoRRRR', 'hector'), 4);
+Test.assertEquals(countCombinations('hi', 'bye'), 0);
+Test.assertEquals(countCombinations('', 'no'), 0);
+Test.assertEquals(countCombinations('', 'n'), 0);
+Test.assertEquals(countCombinations('wowowowowow', 'wow'), 3);
+Test.assertEquals(countCombinations('     ', ' '), 5);
+Test.assertEquals(countCombinations('!@$#*$@@#$!', '!'), 2);
+Test.assertEquals(countCombinations('This is a really long string with no intention of being short and a run on sentence is a run on sentence any way you look at it, split it, cut it, paste it, melt it, and beat it.', 'it'), 8);
+Test.assertEquals(countCombinations('Words are inside words that are on the outside of walls to the side of the bedside.', 'side'), 4);
+Test.assertEquals(countCombinations('Does this work krow?', 'work'), 1);
+Test.assertEquals(countCombinations('03948', '\\d'), 5);
+Test.assertEquals(countCombinations('Count t h e spaces ', '\\s'), 5);
+Test.assertEquals(countCombinations('How many characters?', '\.'), 20);
